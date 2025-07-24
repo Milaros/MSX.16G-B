@@ -1,65 +1,198 @@
-[19:47:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:47:21] [ServerMain/INFO]: Loaded 7 recipes
-[19:47:22] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[19:47:22] [Server thread/INFO]: Loading properties
-[19:47:22] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[19:47:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:47:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:47:23] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[21:00:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:00:39] [ServerMain/INFO]: Loaded 7 recipes
+[21:00:40] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:00:40] [Server thread/INFO]: Loading properties
+[21:00:40] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[21:00:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:00:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:00:40] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[19:47:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[19:47:23] [Server thread/INFO]: Default game type: SURVIVAL
-[19:47:23] [Server thread/INFO]: Generating keypair
-[19:47:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:47:23] [Server thread/INFO]: Using epoll channel type
-[19:47:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:47:23] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[19:47:23] [Server thread/INFO]: [ActionInfo] Loading server plugin ActionInfo v1.6
-[19:47:23] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
-[19:47:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:47:23] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
-[19:47:24] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[19:47:25] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[19:47:25] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[19:47:25] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[19:47:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:47:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:47:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:47:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:47:25] [Server thread/INFO]: Preparing level "world"
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[19:47:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[19:47:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:47:26] [Server thread/INFO]: Time elapsed: 309 ms
-[19:47:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:47:26] [Server thread/INFO]: Time elapsed: 108 ms
-[19:47:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:47:26] [Server thread/INFO]: Time elapsed: 68 ms
-[19:47:26] [Server thread/INFO]: [ActionInfo] Enabling ActionInfo v1.6
-[19:47:26] [Server thread/INFO]: ActionInfo » Enabled
-[19:47:26] [Server thread/INFO]: Running delayed init tasks
-[19:47:26] [Server thread/INFO]: Done (4.034s)! For help, type "help"
-[19:47:26] [Server thread/INFO]: Timings Reset
-[20:18:17] [User Authenticator #0/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
-[20:18:18] [Server thread/INFO]: JustMilaros joined the game
-[20:18:18] [Server thread/INFO]: JustMilaros[/127.76.223.122:33551] logged in with entity id 228 at ([world]100.97773136166819, 86.0, -34.26081503253762)
-[20:18:24] [Server thread/INFO]: JustMilaros issued server command: /time set day
-[20:18:24] [Server thread/INFO]: [JustMilaros: Set the time to 1000]
-[20:19:57] [Server thread/INFO]: JustMilaros issued server command: /ai cpu
-[20:20:03] [Server thread/INFO]: JustMilaros issued server command: /ai cpu
-[20:20:10] [Server thread/INFO]: JustMilaros issued server command: /actiongui JustMilaros
-[20:20:15] [Server thread/INFO]: JustMilaros issued server command: /ag
-[20:24:56] [Server thread/INFO]: JustMilaros issued server command: /skinsrestorer https://imgur.com/jaIGuXq
-[20:25:11] [Server thread/INFO]: JustMilaros issued server command: /skin set https://imgur.com/jaIGuXq JustMilaros
+[21:00:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[21:00:41] [Server thread/INFO]: Default game type: SURVIVAL
+[21:00:41] [Server thread/INFO]: Generating keypair
+[21:00:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:00:41] [Server thread/INFO]: Using epoll channel type
+[21:00:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:00:41] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[21:00:41] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.65.1
+[21:00:41] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[21:00:41] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.1.2
+[21:00:41] [Server thread/INFO]: [ActionInfo] Loading server plugin ActionInfo v1.6
+[21:00:41] [Server thread/INFO]: [DiscordIntegration] Loading server plugin DiscordIntegration v3.0.7.1
+[21:00:42] [Server thread/INFO]: [Discord Integration] Waiting for JDA to initialize to send starting message... (max 5 seconds before skipping)
+[21:00:42] [DiscordIntegration Launch Thread/WARN]: Exception in thread "DiscordIntegration Launch Thread" java.lang.IllegalArgumentException: Token may not contain blanks. Provided: "INSERT BOT TOKEN HERE"
+[21:00:42] [DiscordIntegration Launch Thread/WARN]: 	at dcintegration-spigot-3.0.7.1-1.20.4.jar//net.dv8tion.jda.internal.utils.Checks.noWhitespace(Checks.java:107)
+[21:00:42] [DiscordIntegration Launch Thread/WARN]: 	at dcintegration-spigot-3.0.7.1-1.20.4.jar//net.dv8tion.jda.internal.utils.config.AuthorizationConfig.<init>(AuthorizationConfig.java:30)
+[21:00:42] [DiscordIntegration Launch Thread/WARN]: 	at dcintegration-spigot-3.0.7.1-1.20.4.jar//net.dv8tion.jda.api.JDABuilder.build(JDABuilder.java:1904)
+[21:00:42] [DiscordIntegration Launch Thread/WARN]: 	at dcintegration-spigot-3.0.7.1-1.20.4.jar//de.erdbeerbaerlp.dcintegration.common.DiscordIntegration$LaunchThread.run(DiscordIntegration.java:545)
+[21:00:48] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+[21:00:48] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:00:48] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:00:48] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
+[21:00:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:00:48] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
+[21:00:49] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[21:00:49] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:00:49] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[21:00:49] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[21:00:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:00:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:00:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:00:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:00:49] [Server thread/INFO]: Preparing level "world"
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:00:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[21:00:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:00:50] [Server thread/INFO]: Time elapsed: 253 ms
+[21:00:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:00:50] [Server thread/INFO]: Time elapsed: 112 ms
+[21:00:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:00:50] [Server thread/INFO]: Time elapsed: 85 ms
+[21:00:50] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.65.1
+[21:00:50] [Server thread/INFO]: [ConditionalEvents] Has been enabled! Version: 4.65.1
+[21:00:50] [Server thread/INFO]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
+[21:00:50] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[21:00:51] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:00:51] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:00:51] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[21:00:51] [Server thread/INFO]: [Essentials] Found 1 files to convert...
+[21:00:51] [Server thread/INFO]: [Essentials] Converted 0/1
+[21:00:51] [Server thread/INFO]: [Essentials] Ban format update complete.
+[21:00:51] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[21:00:51] [Server thread/INFO]: [Essentials] Done converting ignore list.
+[21:00:51] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[21:00:51] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
+[21:00:51] [Server thread/INFO]: [Essentials] Done converting mail list.
+[21:00:51] [Server thread/INFO]: [Essentials] #===========================================================================#
+[21:00:51] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
+[21:00:51] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
+[21:00:51] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
+[21:00:51] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
+[21:00:51] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
+[21:00:51] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
+[21:00:51] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
+[21:00:51] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[21:00:51] [Server thread/INFO]: [Essentials] 
+[21:00:51] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
+[21:00:51] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
+[21:00:51] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
+[21:00:51] [Server thread/INFO]: [Essentials] #===========================================================================#
+[21:00:51] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
+[21:00:51] [Server thread/INFO]: [Essentials] #===========================================================================#
+[21:00:51] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
+[21:00:51] [Server thread/INFO]: [Essentials] 
+[21:00:51] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
+[21:00:51] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
+[21:00:51] [Server thread/INFO]: [Essentials] 
+[21:00:51] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
+[21:00:51] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
+[21:00:51] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
+[21:00:51] [Server thread/INFO]: [Essentials]  to us on GitHub:
+[21:00:51] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[21:00:51] [Server thread/INFO]: [Essentials] #===========================================================================#
+[21:00:51] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[21:00:51] [Server thread/INFO]: [Essentials] Using locale en
+[21:00:51] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:00:51] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:00:51] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:00:51] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.1.2
+[21:00:53] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[21:00:53] [Server thread/INFO]: [Multiverse-Core] Version 5.1.2 (API v5.1) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[21:00:53] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[21:00:53] [Server thread/INFO]: [ActionInfo] Enabling ActionInfo v1.6
+[21:00:53] [Server thread/INFO]: ActionInfo » Enabled
+[21:00:53] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v3.0.7.1
+[21:00:53] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+[21:00:53] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:00:53] [Server thread/INFO]: [Geyser-Spigot] 
+[21:00:53] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b887 (git-master-1f23d1d)
+[21:00:53] [Server thread/INFO]: [Geyser-Spigot] 
+[21:00:53] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:00:58] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[21:00:58] [Server thread/INFO]: [Geyser-Spigot] Done (4.686s)! Run /geyser help for help!
+[21:00:58] [Server thread/WARN]: [Geyser-Spigot] Your server software does not support the Java version that Geyser requires (1.21.7). Please install ViaVersion (https://ci.viaversion.com/job/ViaVersion/) or update your server software!
+[21:00:58] [Server thread/INFO]: Running delayed init tasks
+[21:00:58] [Server thread/INFO]: Done (18.600s)! For help, type "help"
+[21:00:58] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:00:58] [Server thread/INFO]: Timings Reset
+[21:00:58] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.1.
+[21:00:58] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[21:01:00] [Server thread/INFO]: [Discord Integration] Started
+[21:01:00] [DiscordIntegration-Core WorkerThread/ERROR]: [Discord Integration] java.lang.NullPointerException: Cannot invoke "net.dv8tion.jda.api.JDA.getSelfUser()" because the return value of "de.erdbeerbaerlp.dcintegration.common.DiscordIntegration.getJDA()" is null
+[21:01:07] [User Authenticator #0/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
+[21:01:07] [Server thread/INFO]: JustMilaros joined the game
+[21:01:07] [Server thread/INFO]: JustMilaros[/127.76.223.122:59175] logged in with entity id 218 at ([world]104.39570275976297, 100.0, -7.952798139954928)
+[21:01:18] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
+[21:01:31] [Server thread/INFO]: JustMilaros issued server command: /gamemode survival
+[21:01:35] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
+[21:01:41] [Server thread/INFO]: JustMilaros issued server command: /gamemode survival
+[21:01:42] [Server thread/INFO]: JustMilaros fell from a high place
+[21:02:01] [Server thread/INFO]: JustMilaros issued server command: /mv import laberinto
+[21:02:03] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
+[21:02:18] [Server thread/INFO]: JustMilaros issued server command: /mv import laberinto normal
+[21:02:18] [Server thread/INFO]: Preparing start region for dimension minecraft:laberinto
+[21:02:18] [Server thread/INFO]: Time elapsed: 17 ms
+[21:02:34] [Server thread/INFO]: JustMilaros issued server command: /mv load laberinto
+[21:02:57] [Server thread/INFO]: JustMilaros issued server command: /mv list
+[21:03:03] [Server thread/INFO]: JustMilaros issued server command: /mv load world
+[21:04:38] [Server thread/INFO]: JustMilaros issued server command: /mvtp laberinto
+[21:05:44] [Server thread/INFO]: JustMilaros issued server command: /gm adventure all
+[21:05:51] [Server thread/INFO]: JustMilaros issued server command: /gamemode adventure JustMilaros
+[21:12:44] [Server thread/INFO]: Stopping the server
+[21:12:44] [Server thread/INFO]: Stopping server
+[21:12:44] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.7
+[21:12:44] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
+[21:12:44] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[21:12:44] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[21:12:44] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v3.0.7.1
+[21:12:44] [Server thread/INFO]: [Discord Integration] Unloading addons...
+[21:12:44] [Server thread/INFO]: [Discord Integration] Unloaded addons
+[21:12:44] [Server thread/INFO]: [ActionInfo] Disabling ActionInfo v1.6
+[21:12:44] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.1.2
+[21:12:44] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[21:12:44] [Server thread/INFO]: [ConditionalEvents] Disabling ConditionalEvents v4.65.1
+[21:12:44] [Server thread/INFO]: [ConditionalEvents] Has been disabled! Version: 4.65.1
+[21:12:44] [Server thread/INFO]: Saving players
+[21:12:44] [Server thread/INFO]: JustMilaros lost connection: Server closed
+[21:12:44] [Server thread/INFO]: JustMilaros left the game
+[21:12:44] [Server thread/INFO]: Saving worlds
+[21:12:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 161 entity chunks, 0 poi chunks in world 'world' in 0.04s
+[21:12:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:12:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 16 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[21:12:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:12:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[21:12:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:12:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[laberinto]'/minecraft:laberinto
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'laberinto'
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'laberinto'
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'laberinto'
+[21:12:44] [Server thread/INFO]: [ChunkHolderManager] Saved 8 block chunks, 108 entity chunks, 0 poi chunks in world 'laberinto' in 0.02s
+[21:12:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (laberinto): All chunks are saved
+[21:12:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:12:44] [Server thread/INFO]: Flushing Chunk IO
+[21:12:44] [Server thread/INFO]: Closing Thread Pool
+[21:12:44] [Server thread/INFO]: Closing Server
