@@ -52,3 +52,14 @@
 [19:47:26] [Server thread/INFO]: Running delayed init tasks
 [19:47:26] [Server thread/INFO]: Done (4.034s)! For help, type "help"
 [19:47:26] [Server thread/INFO]: Timings Reset
+[20:18:17] [User Authenticator #0/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
+[20:18:18] [Server thread/INFO]: JustMilaros joined the game
+[20:18:18] [Server thread/INFO]: JustMilaros[/127.76.223.122:33551] logged in with entity id 228 at ([world]100.97773136166819, 86.0, -34.26081503253762)
+[20:18:24] [Server thread/INFO]: JustMilaros issued server command: /time set day
+[20:18:24] [Server thread/INFO]: [JustMilaros: Set the time to 1000]
+[20:19:57] [Server thread/INFO]: JustMilaros issued server command: /ai cpu
+[20:20:03] [Server thread/INFO]: JustMilaros issued server command: /ai cpu
+[20:20:10] [Server thread/INFO]: JustMilaros issued server command: /actiongui JustMilaros
+[20:20:15] [Server thread/INFO]: JustMilaros issued server command: /ag
+[20:24:56] [Server thread/INFO]: JustMilaros issued server command: /skinsrestorer https://imgur.com/jaIGuXq
+[20:25:11] [Server thread/INFO]: JustMilaros issued server command: /skin set https://imgur.com/jaIGuXq JustMilaros
