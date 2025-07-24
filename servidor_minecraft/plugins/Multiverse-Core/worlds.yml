@@ -39,12 +39,12 @@ laberinto:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    monster:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -92,17 +92,17 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    monster:
+    ambient:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -112,7 +112,7 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
