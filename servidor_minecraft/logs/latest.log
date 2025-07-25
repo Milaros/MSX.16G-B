@@ -122,3 +122,66 @@
 [23:06:51] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
 [23:08:15] [Server thread/INFO]: JustMilaros has made the advancement [Suit Up]
 [23:10:47] [Server thread/INFO]: JustMilaros issued server command: /time set day
+[23:13:35] [Server thread/INFO]: JustMilaros has made the advancement [Hot Stuff]
+[23:18:09] [Server thread/INFO]: JustMilaros issued server command: /mv create Lobby
+[23:18:20] [Server thread/INFO]: JustMilaros issued server command: /mv create Lobby Lobby
+[23:18:36] [Server thread/INFO]: JustMilaros issued server command: /mv create Lobby custom
+[23:18:36] [Server thread/ERROR]: [Multiverse-Core] Failed to create bukkit world: Lobby
+[23:18:36] [Server thread/WARN]: java.lang.IllegalArgumentException: Illegal dimension (CUSTOM)
+[23:18:36] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.createWorld(CraftServer.java:1270)
+[23:18:36] [Server thread/WARN]: 	at org.bukkit.Bukkit.createWorld(Bukkit.java:804)
+[23:18:36] [Server thread/WARN]: 	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:474)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:756)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:754)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.doCreateWorld(WorldManager.java:262)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.createWorld(WorldManager.java:233)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.commands.CreateCommand.onCreateCommand(CreateCommand.java:80)
+[23:18:36] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[23:18:36] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[23:18:36] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[23:18:36] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
+[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
+[23:18:36] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[23:18:36] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987)
+[23:18:36] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+[23:18:36] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:324)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:308)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2354)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleChatCommand$21(PlayerConnection.java:2314)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.b(IAsyncTaskHandler.java:59)
+[23:18:36] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1338)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1315)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1308)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:136)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.p_(MinecraftServer.java:1286)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1174)
+[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[23:18:36] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[23:19:11] [Server thread/INFO]: JustMilaros issued server command: /mv create Lobby normal
+[23:19:18] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[23:19:18] [Server thread/WARN]: JustMilaros moved too quickly! 2.1075379523704783,0.0,-10.35131633099536
+[23:19:18] [Server thread/INFO]: Time elapsed: 61 ms
+[23:19:18] [Server thread/INFO]: JustMilaros issued server command: /ai
+[23:19:21] [Server thread/INFO]: JustMilaros issued server command: /ai
+[23:19:30] [Server thread/INFO]: JustMilaros issued server command: /mv tp Lobby
+[23:19:49] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
+[23:20:20] [Server thread/INFO]: JustMilaros lost connection: Disconnected
+[23:20:20] [Server thread/INFO]: JustMilaros left the game
+[23:22:06] [User Authenticator #1/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
+[23:22:06] [Server thread/INFO]: JustMilaros joined the game
+[23:22:06] [Server thread/INFO]: JustMilaros[/127.76.223.122:37257] logged in with entity id 3092 at ([Lobby]-209.95136119855007, 73.61223572340562, -139.54298564815954)
