@@ -456,3 +456,5 @@ java.lang.Throwable: null
 [20:13:32] [Server thread/INFO]: JustMilaros issued server command: /gamemode survival
 [20:13:33] [Server thread/INFO]: JustMilaros issued server command: /gamemode spectator
 [20:13:36] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
+[20:17:02] [Netty Epoll Server IO #3/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:17:05] [Netty Epoll Server IO #0/INFO]: [packetevents] Disconnected null due to invalid packet!
