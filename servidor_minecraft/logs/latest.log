@@ -458,3 +458,23 @@ java.lang.Throwable: null
 [20:13:36] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
 [20:17:02] [Netty Epoll Server IO #3/INFO]: [packetevents] Disconnected null due to invalid packet!
 [20:17:05] [Netty Epoll Server IO #0/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:25:35] [Server thread/INFO]: JustMilaros issued server command: /ce reload
+[20:25:47] [Server thread/INFO]: JustMilaros issued server command: /time set day
+[20:25:57] [Server thread/INFO]: JustMilaros issued server command: /difficulty peaceful
+[20:25:57] [Server thread/INFO]: [JustMilaros: The difficulty has been set to Peaceful]
+[20:26:02] [Server thread/INFO]: JustMilaros issued server command: /difficulty normal
+[20:26:02] [Server thread/INFO]: [JustMilaros: The difficulty has been set to Normal]
+[20:26:38] [Server thread/INFO]: JustMilaros has made the advancement [Monster Hunter]
+[20:31:53] [Netty Epoll Server IO #3/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:31:54] [Netty Epoll Server IO #1/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:31:54] [Netty Epoll Server IO #2/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:31:54] [Netty Epoll Server IO #3/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:31:54] [Netty Epoll Server IO #0/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:31:55] [Netty Epoll Server IO #1/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:31:55] [Netty Epoll Server IO #2/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:31:55] [Netty Epoll Server IO #3/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:31:56] [Netty Epoll Server IO #0/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:31:56] [Netty Epoll Server IO #1/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:31:56] [Netty Epoll Server IO #2/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:31:56] [Netty Epoll Server IO #1/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:31:56] [Netty Epoll Server IO #0/INFO]: [packetevents] Disconnected null due to invalid packet!

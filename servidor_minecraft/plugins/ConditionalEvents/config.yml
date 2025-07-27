@@ -63,4 +63,9 @@ Events:
       default:
       - 'to_all: message: &e&l[ALERT] &f&lAjneb joined the game!'
   event2:
-    type:
+    type: entity_spawn
+    conditions:
+    - '%entity% equals CREEPER'
+    actions:
+      default:
+      - 'cancel_event: true'
