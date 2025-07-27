@@ -12,3 +12,10 @@ a4be21ca-d8cc-3cac-a759-a5fcdcae46dc:
   cpu: false
   ram: false
   ping: false
+00000000-0000-0000-0009-01f9001e85d4:
+  active: false
+  tps: false
+  mspt: false
+  cpu: false
+  ram: false
+  ping: false

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.123.234.133
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1753647202886
+  login: 1753646927476
+money: '0'
+last-account-name: .JustMilaross
+logoutlocation:
+  world: 94734b5e-cbc7-468c-a83f-198a312154a1
+  world-name: laberinto
+  x: -519.1147
+  y: 4.0
+  z: 815.30001
+  yaw: -92.18595886230469
+  pitch: 25.981201171875

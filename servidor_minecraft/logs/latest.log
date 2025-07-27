@@ -1,243 +1,458 @@
-[22:52:23] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:52:25] [ServerMain/INFO]: Loaded 7 recipes
-[22:52:25] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[22:52:25] [Server thread/INFO]: Loading properties
-[22:52:25] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[22:52:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:52:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:52:26] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[20:03:42] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:03:43] [ServerMain/INFO]: Loaded 7 recipes
+[20:03:44] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:03:44] [Server thread/INFO]: Loading properties
+[20:03:44] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[20:03:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:03:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:03:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[22:52:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[22:52:26] [Server thread/INFO]: Default game type: SURVIVAL
-[22:52:26] [Server thread/INFO]: Generating keypair
-[22:52:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:52:26] [Server thread/INFO]: Using epoll channel type
-[22:52:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:52:26] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[22:52:27] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
-[22:52:28] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[22:52:28] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[22:52:28] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[22:52:28] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.65.1
-[22:52:28] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.71
-[22:52:28] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[22:52:29] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.1.2
-[22:52:29] [Server thread/INFO]: [ActionInfo] Loading server plugin ActionInfo v1.6
-[22:52:29] [Server thread/INFO]: [DiscordIntegration] Loading server plugin DiscordIntegration v3.0.7.1
-[22:52:29] [Server thread/INFO]: [Discord Integration] Waiting for JDA to initialize to send starting message... (max 5 seconds before skipping)
-[22:52:30] [DiscordIntegration Launch Thread/WARN]: Exception in thread "DiscordIntegration Launch Thread" java.lang.IllegalArgumentException: Token may not contain blanks. Provided: "INSERT BOT TOKEN HERE"
-[22:52:30] [DiscordIntegration Launch Thread/WARN]: 	at dcintegration-spigot-3.0.7.1-1.20.4.jar//net.dv8tion.jda.internal.utils.Checks.noWhitespace(Checks.java:107)
-[22:52:30] [DiscordIntegration Launch Thread/WARN]: 	at dcintegration-spigot-3.0.7.1-1.20.4.jar//net.dv8tion.jda.internal.utils.config.AuthorizationConfig.<init>(AuthorizationConfig.java:30)
-[22:52:30] [DiscordIntegration Launch Thread/WARN]: 	at dcintegration-spigot-3.0.7.1-1.20.4.jar//net.dv8tion.jda.api.JDABuilder.build(JDABuilder.java:1904)
-[22:52:30] [DiscordIntegration Launch Thread/WARN]: 	at dcintegration-spigot-3.0.7.1-1.20.4.jar//de.erdbeerbaerlp.dcintegration.common.DiscordIntegration$LaunchThread.run(DiscordIntegration.java:545)
-[22:52:35] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
-[22:52:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:52:35] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
-[22:52:36] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[22:52:36] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[22:52:36] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[22:52:36] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[22:52:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:52:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:52:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:52:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:52:36] [Server thread/INFO]: Preparing level "world"
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[22:52:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[22:52:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:52:37] [Server thread/INFO]: Time elapsed: 362 ms
-[22:52:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:52:37] [Server thread/INFO]: Time elapsed: 59 ms
-[22:52:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:52:37] [Server thread/INFO]: Time elapsed: 72 ms
-[22:52:37] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
-[22:52:38] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[22:52:39] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[22:52:39] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[22:52:39] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[22:52:39] [Server thread/INFO]: [Essentials] Using locale en
-[22:52:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[22:52:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[22:52:39] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[22:52:39] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.65.1
-[22:52:39] [Server thread/INFO]: [ConditionalEvents] Has been enabled! Version: 4.65.1
-[22:52:39] [Server thread/INFO]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
-[22:52:40] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.71
-[22:52:40] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[22:52:40] [Server thread/INFO]: [GrimAC] Registering packets...
-[22:52:40] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[22:52:40] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
-[22:52:41] [Server thread/INFO]: Grim Version: 2.3.71
-[22:52:41] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.1.2
-[22:52:41] [Server thread/INFO]: Preparing start region for dimension minecraft:laberinto
-[22:52:43] [Server thread/INFO]: Time elapsed: 1104 ms
-[22:52:43] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[22:52:43] [Server thread/INFO]: [Multiverse-Core] Version 5.1.2 (API v5.1) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[22:52:43] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[22:52:43] [Server thread/INFO]: [ActionInfo] Enabling ActionInfo v1.6
-[22:52:43] [Server thread/INFO]: ActionInfo » Enabled
-[22:52:43] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v3.0.7.1
-[22:52:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[22:52:44] [Server thread/INFO]: [Geyser-Spigot] 
-[22:52:44] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b887 (git-master-1f23d1d)
-[22:52:44] [Server thread/INFO]: [Geyser-Spigot] 
-[22:52:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[22:52:47] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[22:52:47] [Server thread/INFO]: [Geyser-Spigot] Done (3.778s)! Run /geyser help for help!
-[22:52:47] [Server thread/WARN]: [Geyser-Spigot] Your server software does not support the Java version that Geyser requires (1.21.7). Please install ViaVersion (https://ci.viaversion.com/job/ViaVersion/) or update your server software!
-[22:52:47] [Server thread/INFO]: Running delayed init tasks
-[22:52:47] [Server thread/INFO]: Done (22.425s)! For help, type "help"
-[22:52:47] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[22:52:47] [Server thread/INFO]: Timings Reset
-[22:52:48] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.1.
-[22:52:48] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[22:52:48] [Craft Scheduler Thread - 4 - GrimAC/INFO]: You are using the latest version of GrimAC
-[22:52:49] [Server thread/INFO]: [Discord Integration] Started
-[22:52:49] [DiscordIntegration-Core WorkerThread/ERROR]: [Discord Integration] java.lang.NullPointerException: Cannot invoke "net.dv8tion.jda.api.JDA.getSelfUser()" because the return value of "de.erdbeerbaerlp.dcintegration.common.DiscordIntegration.getJDA()" is null
-[22:52:56] [User Authenticator #0/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
-[22:52:56] [Server thread/INFO]: JustMilaros joined the game
-[22:52:56] [Server thread/INFO]: JustMilaros[/127.76.223.122:57583] logged in with entity id 333 at ([world]-12.209027178536777, 101.0, 24.845826355744173)
-[22:52:58] [Netty Epoll Server IO #2/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_20/12...
-[22:52:58] [Netty Epoll Server IO #2/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_20/12 in 270.313077ms
-[22:53:02] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
-[22:53:58] [Server thread/INFO]: JustMilaros issued server command: /mv teleport laberinto
-[22:54:05] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
-[22:58:44] [Server thread/INFO]: JustMilaros has made the advancement [Diamonds!]
-[22:58:48] [Server thread/INFO]: JustMilaros has made the advancement [Acquire Hardware]
-[22:59:46] [Server thread/INFO]: JustMilaros issued server command: /time set day
-[22:59:50] [Server thread/INFO]: JustMilaros issued server command: /weather clear
-[23:06:45] [Server thread/INFO]: JustMilaros issued server command: /gamemode adventure
-[23:06:51] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
-[23:08:15] [Server thread/INFO]: JustMilaros has made the advancement [Suit Up]
-[23:10:47] [Server thread/INFO]: JustMilaros issued server command: /time set day
-[23:13:35] [Server thread/INFO]: JustMilaros has made the advancement [Hot Stuff]
-[23:18:09] [Server thread/INFO]: JustMilaros issued server command: /mv create Lobby
-[23:18:20] [Server thread/INFO]: JustMilaros issued server command: /mv create Lobby Lobby
-[23:18:36] [Server thread/INFO]: JustMilaros issued server command: /mv create Lobby custom
-[23:18:36] [Server thread/ERROR]: [Multiverse-Core] Failed to create bukkit world: Lobby
-[23:18:36] [Server thread/WARN]: java.lang.IllegalArgumentException: Illegal dimension (CUSTOM)
-[23:18:36] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.createWorld(CraftServer.java:1270)
-[23:18:36] [Server thread/WARN]: 	at org.bukkit.Bukkit.createWorld(Bukkit.java:804)
-[23:18:36] [Server thread/WARN]: 	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:474)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:756)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:754)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.doCreateWorld(WorldManager.java:262)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.world.WorldManager.createWorld(WorldManager.java:233)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.commands.CreateCommand.onCreateCommand(CreateCommand.java:80)
-[23:18:36] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:18:36] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[23:18:36] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:18:36] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
-[23:18:36] [Server thread/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
-[23:18:36] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
-[23:18:36] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987)
-[23:18:36] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
-[23:18:36] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:324)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:308)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2354)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleChatCommand$21(PlayerConnection.java:2314)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.b(IAsyncTaskHandler.java:59)
-[23:18:36] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1338)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1315)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1308)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:136)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.p_(MinecraftServer.java:1286)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1174)
-[23:18:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
-[23:18:36] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[23:19:11] [Server thread/INFO]: JustMilaros issued server command: /mv create Lobby normal
-[23:19:18] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
-[23:19:18] [Server thread/WARN]: JustMilaros moved too quickly! 2.1075379523704783,0.0,-10.35131633099536
-[23:19:18] [Server thread/INFO]: Time elapsed: 61 ms
-[23:19:18] [Server thread/INFO]: JustMilaros issued server command: /ai
-[23:19:21] [Server thread/INFO]: JustMilaros issued server command: /ai
-[23:19:30] [Server thread/INFO]: JustMilaros issued server command: /mv tp Lobby
-[23:19:49] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
-[23:20:20] [Server thread/INFO]: JustMilaros lost connection: Disconnected
-[23:20:20] [Server thread/INFO]: JustMilaros left the game
-[23:22:06] [User Authenticator #1/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
-[23:22:06] [Server thread/INFO]: JustMilaros joined the game
-[23:22:06] [Server thread/INFO]: JustMilaros[/127.76.223.122:37257] logged in with entity id 3092 at ([Lobby]-209.95136119855007, 73.61223572340562, -139.54298564815954)
-[23:30:31] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
-[23:30:35] [Server thread/INFO]: JustMilaros issued server command: /time set day
-[23:31:53] [Server thread/INFO]: Stopping the server
-[23:31:53] [Server thread/INFO]: Stopping server
-[23:31:53] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.7
-[23:31:53] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v3.0.7.1
-[23:31:53] [Server thread/INFO]: [Discord Integration] Unloading addons...
-[23:31:53] [Server thread/INFO]: [Discord Integration] Unloaded addons
-[23:31:53] [Server thread/INFO]: [ActionInfo] Disabling ActionInfo v1.6
-[23:31:53] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.1.2
-[23:31:53] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.71
-[23:31:53] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
-[23:31:53] [Server thread/INFO]: [ConditionalEvents] Disabling ConditionalEvents v4.65.1
-[23:31:53] [Server thread/INFO]: [ConditionalEvents] Has been disabled! Version: 4.65.1
-[23:31:53] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
-[23:31:53] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
-[23:31:53] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[23:31:53] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[23:31:53] [Server thread/INFO]: Saving players
-[23:31:53] [Server thread/INFO]: JustMilaros lost connection: Server closed
-[23:31:53] [Server thread/INFO]: JustMilaros left the game
-[23:31:53] [Server thread/INFO]: Saving worlds
-[23:31:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:31:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:31:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:31:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Saved 197 block chunks, 134 entity chunks, 0 poi chunks in world 'world' in 0.13s
-[23:31:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:31:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 16 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[23:31:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:31:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[23:31:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:31:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[laberinto]'/minecraft:laberinto
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'laberinto'
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'laberinto'
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'laberinto'
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Saved 205 block chunks, 82 entity chunks, 0 poi chunks in world 'laberinto' in 0.07s
-[23:31:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (laberinto): All chunks are saved
-[23:31:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Lobby]'/minecraft:lobby
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Lobby'
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Lobby'
-[23:31:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Lobby'
-[23:31:55] [Server thread/INFO]: [ChunkHolderManager] Saved 1845 block chunks, 162 entity chunks, 0 poi chunks in world 'Lobby' in 0.74s
-[23:31:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (Lobby): All chunks are saved
-[23:31:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:31:55] [Server thread/INFO]: Flushing Chunk IO
-[23:31:55] [Server thread/INFO]: Closing Thread Pool
-[23:31:55] [Server thread/INFO]: Closing Server
+[20:03:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:03:45] [Server thread/INFO]: Default game type: SURVIVAL
+[20:03:45] [Server thread/INFO]: Generating keypair
+[20:03:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:03:45] [Server thread/INFO]: Using epoll channel type
+[20:03:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:03:45] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[20:03:46] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[20:03:46] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[20:03:46] [Server thread/INFO]: [floodgate] Took 472ms to boot Floodgate
+[20:03:46] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1
+[20:03:46] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.1 is now loaded. Registering protocol transformers and injecting...
+[20:03:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:03:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:03:47] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:03:47] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.4.1.jar' in folder 'plugins' (Is it up to date?)
+java.lang.NoClassDefFoundError: com/viaversion/viaversion/rewriter/ComponentRewriter
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:229) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at com.viaversion.viabackwards.api.ViaBackwardsPlatform.init(ViaBackwardsPlatform.java:92) ~[ViaBackwards-5.0.3.jar:?]
+	at com.viaversion.viabackwards.BukkitPlugin.lambda$new$0(BukkitPlugin.java:38) ~[ViaBackwards-5.0.3.jar:?]
+	at com.viaversion.viaversion.ViaManagerImpl.init(ViaManagerImpl.java:115) ~[ViaVersion-5.4.1.jar:?]
+	at com.viaversion.viaversion.ViaVersionPlugin.onLoad(ViaVersionPlugin.java:87) ~[ViaVersion-5.4.1.jar:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:40) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:510) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.rewriter.ComponentRewriter
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 21 more
+[20:03:47] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+[20:03:47] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[20:03:47] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[20:03:47] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
+[20:03:47] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[20:03:47] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.65.1
+[20:03:47] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.71
+[20:03:47] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[20:03:48] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.1.2
+[20:03:48] [Server thread/INFO]: [ActionInfo] Loading server plugin ActionInfo v1.6
+[20:03:48] [Server thread/INFO]: [DiscordIntegration] Loading server plugin DiscordIntegration v3.0.7.1
+[20:03:49] [Server thread/INFO]: [Discord Integration] Waiting for JDA to initialize to send starting message... (max 5 seconds before skipping)
+[20:03:49] [DiscordIntegration Launch Thread/WARN]: Exception in thread "DiscordIntegration Launch Thread" java.lang.IllegalArgumentException: Token may not contain blanks. Provided: "INSERT BOT TOKEN HERE"
+[20:03:49] [DiscordIntegration Launch Thread/WARN]: 	at dcintegration-spigot-3.0.7.1-1.20.4.jar//net.dv8tion.jda.internal.utils.Checks.noWhitespace(Checks.java:107)
+[20:03:49] [DiscordIntegration Launch Thread/WARN]: 	at dcintegration-spigot-3.0.7.1-1.20.4.jar//net.dv8tion.jda.internal.utils.config.AuthorizationConfig.<init>(AuthorizationConfig.java:30)
+[20:03:49] [DiscordIntegration Launch Thread/WARN]: 	at dcintegration-spigot-3.0.7.1-1.20.4.jar//net.dv8tion.jda.api.JDABuilder.build(JDABuilder.java:1904)
+[20:03:49] [DiscordIntegration Launch Thread/WARN]: 	at dcintegration-spigot-3.0.7.1-1.20.4.jar//de.erdbeerbaerlp.dcintegration.common.DiscordIntegration$LaunchThread.run(DiscordIntegration.java:545)
+[20:03:55] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
+[20:03:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:03:55] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
+[20:03:55] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[20:03:55] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[20:03:55] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:03:55] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[20:03:55] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[20:03:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:03:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:03:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:03:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:03:55] [Server thread/INFO]: Preparing level "world"
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[20:03:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[20:03:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:03:56] [Server thread/INFO]: Time elapsed: 220 ms
+[20:03:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:03:56] [Server thread/INFO]: Time elapsed: 82 ms
+[20:03:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:03:56] [Server thread/INFO]: Time elapsed: 53 ms
+[20:03:56] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[20:03:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.1
+[20:03:58] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[20:03:58] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.15).
+[20:03:58] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[20:03:58] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+[20:03:59] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
+[20:03:59] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[20:04:00] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:04:00] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:04:00] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[20:04:00] [Server thread/INFO]: [Essentials] Using locale en
+[20:04:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:04:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:04:00] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[20:04:00] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.65.1
+[20:04:00] [Server thread/INFO]: [ConditionalEvents] Has been enabled! Version: 4.65.1
+[20:04:00] [Server thread/INFO]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
+[20:04:00] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.71
+[20:04:00] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[20:04:00] [Server thread/INFO]: [GrimAC] Registering packets...
+[20:04:01] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[20:04:01] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[20:04:01] [Server thread/INFO]: Grim Version: 2.3.71
+[20:04:01] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
+[20:04:01] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
+[20:04:01] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
+[20:04:01] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.1.2
+[20:04:02] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[20:04:03] [Server thread/INFO]: Time elapsed: 1250 ms
+[20:04:03] [Server thread/INFO]: Preparing start region for dimension minecraft:laberinto
+[20:04:04] [Server thread/INFO]: Time elapsed: 72 ms
+[20:04:04] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[20:04:04] [Server thread/INFO]: [Multiverse-Core] Version 5.1.2 (API v5.1) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[20:04:04] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[20:04:04] [Server thread/INFO]: [ActionInfo] Enabling ActionInfo v1.6
+[20:04:04] [Server thread/INFO]: ActionInfo » Enabled
+[20:04:04] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v3.0.7.1
+[20:04:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:04:05] [Server thread/INFO]: [Geyser-Spigot] 
+[20:04:05] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b887 (git-master-1f23d1d)
+[20:04:05] [Server thread/INFO]: [Geyser-Spigot] 
+[20:04:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:04:09] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2626
+[20:04:09] [Server thread/INFO]: [Geyser-Spigot] Done (4.811s)! Run /geyser help for help!
+[20:04:10] [Server thread/INFO]: Running delayed init tasks
+[20:04:10] [Server thread/INFO]: Done (25.739s)! For help, type "help"
+[20:04:10] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[20:04:10] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:04:10] [Server thread/INFO]: Timings Reset
+[20:04:10] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.1.
+[20:04:10] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[20:04:10] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.2, you're on: 5.4.1
+[20:04:10] [Craft Scheduler Thread - 4 - GrimAC/INFO]: You are using the latest version of GrimAC
+[20:04:11] [Server thread/INFO]: [Discord Integration] Started
+[20:04:11] [DiscordIntegration-Core WorkerThread/ERROR]: [Discord Integration] java.lang.NullPointerException: Cannot invoke "net.dv8tion.jda.api.JDA.getSelfUser()" because the return value of "de.erdbeerbaerlp.dcintegration.common.DiscordIntegration.getJDA()" is null
+[20:08:46] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username JustMilaross
+[20:08:46] [localSession-7-2/INFO]: [Geyser-Spigot] JustMilaross (logged in as: JustMilaross) has connected to the Java server
+[20:08:47] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .JustMilaross is 00000000-0000-0000-0009-01f9001e85d4
+[20:08:47] [Server thread/INFO]: [floodgate] Floodgate player logged in as .JustMilaross joined (UUID: 00000000-0000-0000-0009-01f9001e85d4)
+[20:08:47] [Server thread/INFO]: .JustMilaross joined the game
+[20:08:47] [Server thread/INFO]: .JustMilaross[/127.123.234.133:0] logged in with entity id 462 at ([world]2.5, 91.0, 10.5)
+[20:09:59] [User Authenticator #0/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
+[20:09:59] [Server thread/INFO]: JustMilaros joined the game
+[20:09:59] [Server thread/INFO]: JustMilaros[/127.76.223.122:58071] logged in with entity id 747 at ([Lobby]-205.06593097811563, 75.24294550736803, -144.40225248491922)
+[20:10:02] [Netty Epoll Server IO #2/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_20/12...
+[20:10:03] [Netty Epoll Server IO #2/INFO]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_20/12 in 357.6584ms
+[20:10:34] [Server thread/INFO]: JustMilaros issued server command: /mv tp Lobby .JustMilaross
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: [Multiverse-Core] An error occurred while parsing selector '@' for JustMilaros. Is it is the correct format?
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: java.lang.IllegalArgumentException: Could not parse selector: @
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.selectEntities(CraftServer.java:2843)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.Bukkit.selectEntities(Bukkit.java:2402)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.PlayerFinder.getMultiBySelector(PlayerFinder.java:196)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.PlayerFinder.getMulti(PlayerFinder.java:107)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandContexts.lambda$playerArrayContextBuilder$34(MVCommandContexts.java:275)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.context.issueraware.IssuerAwareContextBuilder.lambda$generateContext$5(IssuerAwareContextBuilder.java:205)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.resolveContexts(RegisteredCommand.java:290)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValueByName(CommandCompletionContext.java:109)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$completeWithPreconditions$52d7ff4a$1(MVCommandCompletions.java:136)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.completeWithPreconditions(MVCommandCompletions.java:136)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$registerAsyncCompletion$1(MVCommandCompletions.java:126)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletions.getCompletionValues(CommandCompletions.java:271)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletions.of(CommandCompletions.java:217)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.completeCommand(BaseCommand.java:705)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.tabComplete(BaseCommand.java:646)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.ForwardingCommand.tabComplete(ForwardingCommand.java:76)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.lambda$getTabCompletions$1(RootCommand.java:125)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.getTabCompletions(RootCommand.java:123)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVRootCommand.getTabCompletions(MVRootCommand.java:25)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.getCompletions(PaperAsyncTabCompleteHandler.java:79)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.onAsyncTabComplete(PaperAsyncTabCompleteHandler.java:51)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.event.Event.callEvent(Event.java:45)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleCustomCommandSuggestions$8(PlayerConnection.java:913)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Missing selector type at position 1: @<--[HERE]
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: [Multiverse-Core] An error occurred while parsing selector '@' for JustMilaros. Is it is the correct format?
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: java.lang.IllegalArgumentException: Could not parse selector: @
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.selectEntities(CraftServer.java:2843)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.Bukkit.selectEntities(Bukkit.java:2402)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.PlayerFinder.getMultiBySelector(PlayerFinder.java:196)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.PlayerFinder.getMulti(PlayerFinder.java:107)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandContexts.lambda$playerArrayContextBuilder$34(MVCommandContexts.java:275)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.context.issueraware.IssuerAwareContextBuilder.lambda$generateContext$5(IssuerAwareContextBuilder.java:205)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.resolveContexts(RegisteredCommand.java:290)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValueByName(CommandCompletionContext.java:109)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValue(CommandCompletionContext.java:104)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValue(CommandCompletionContext.java:75)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$suggestDestinations$6183e5cd$1(MVCommandCompletions.java:217)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.suggestDestinations(MVCommandCompletions.java:217)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.completeWithPreconditions(MVCommandCompletions.java:166)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$registerAsyncCompletion$1(MVCommandCompletions.java:126)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletions.getCompletionValues(CommandCompletions.java:271)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletions.of(CommandCompletions.java:217)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.completeCommand(BaseCommand.java:705)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.tabComplete(BaseCommand.java:646)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.ForwardingCommand.tabComplete(ForwardingCommand.java:76)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.lambda$getTabCompletions$1(RootCommand.java:125)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.getTabCompletions(RootCommand.java:123)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVRootCommand.getTabCompletions(MVRootCommand.java:25)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.getCompletions(PaperAsyncTabCompleteHandler.java:79)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.onAsyncTabComplete(PaperAsyncTabCompleteHandler.java:51)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.event.Event.callEvent(Event.java:45)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleCustomCommandSuggestions$8(PlayerConnection.java:913)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:10:47] [Async Tab Complete Thread - #0/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Missing selector type at position 1: @<--[HERE]
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: [Multiverse-Core] An error occurred while parsing selector '@' for JustMilaros. Is it is the correct format?
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: java.lang.IllegalArgumentException: Could not parse selector: @
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.selectEntities(CraftServer.java:2843)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at org.bukkit.Bukkit.selectEntities(Bukkit.java:2402)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.PlayerFinder.getMultiBySelector(PlayerFinder.java:196)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.PlayerFinder.getMulti(PlayerFinder.java:107)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandContexts.lambda$playerArrayContextBuilder$34(MVCommandContexts.java:275)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.context.issueraware.IssuerAwareContextBuilder.lambda$generateContext$5(IssuerAwareContextBuilder.java:205)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.resolveContexts(RegisteredCommand.java:290)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValueByName(CommandCompletionContext.java:109)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$completeWithPreconditions$52d7ff4a$1(MVCommandCompletions.java:136)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.completeWithPreconditions(MVCommandCompletions.java:136)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$registerAsyncCompletion$1(MVCommandCompletions.java:126)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletions.getCompletionValues(CommandCompletions.java:271)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletions.of(CommandCompletions.java:217)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.completeCommand(BaseCommand.java:705)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.tabComplete(BaseCommand.java:646)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.ForwardingCommand.tabComplete(ForwardingCommand.java:76)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.lambda$getTabCompletions$1(RootCommand.java:125)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.getTabCompletions(RootCommand.java:123)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVRootCommand.getTabCompletions(MVRootCommand.java:25)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.getCompletions(PaperAsyncTabCompleteHandler.java:79)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.onAsyncTabComplete(PaperAsyncTabCompleteHandler.java:51)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at org.bukkit.event.Event.callEvent(Event.java:45)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleCustomCommandSuggestions$8(PlayerConnection.java:913)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Missing selector type at position 1: @<--[HERE]
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: [Multiverse-Core] An error occurred while parsing selector '@' for JustMilaros. Is it is the correct format?
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: java.lang.IllegalArgumentException: Could not parse selector: @
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.selectEntities(CraftServer.java:2843)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at org.bukkit.Bukkit.selectEntities(Bukkit.java:2402)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.PlayerFinder.getMultiBySelector(PlayerFinder.java:196)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.PlayerFinder.getMulti(PlayerFinder.java:107)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandContexts.lambda$playerArrayContextBuilder$34(MVCommandContexts.java:275)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.context.issueraware.IssuerAwareContextBuilder.lambda$generateContext$5(IssuerAwareContextBuilder.java:205)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.resolveContexts(RegisteredCommand.java:290)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValueByName(CommandCompletionContext.java:109)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValue(CommandCompletionContext.java:104)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValue(CommandCompletionContext.java:75)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$suggestDestinations$6183e5cd$1(MVCommandCompletions.java:217)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.suggestDestinations(MVCommandCompletions.java:217)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.completeWithPreconditions(MVCommandCompletions.java:166)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$registerAsyncCompletion$1(MVCommandCompletions.java:126)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletions.getCompletionValues(CommandCompletions.java:271)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletions.of(CommandCompletions.java:217)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.completeCommand(BaseCommand.java:705)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.tabComplete(BaseCommand.java:646)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.ForwardingCommand.tabComplete(ForwardingCommand.java:76)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.lambda$getTabCompletions$1(RootCommand.java:125)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.getTabCompletions(RootCommand.java:123)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVRootCommand.getTabCompletions(MVRootCommand.java:25)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.getCompletions(PaperAsyncTabCompleteHandler.java:79)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.onAsyncTabComplete(PaperAsyncTabCompleteHandler.java:51)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at org.bukkit.event.Event.callEvent(Event.java:45)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleCustomCommandSuggestions$8(PlayerConnection.java:913)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:10:48] [Async Tab Complete Thread - #2/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Missing selector type at position 1: @<--[HERE]
+[20:10:48] [Async Tab Complete Thread - #3/ERROR]: Thread Async Tab Complete Thread - #3 failed main thread check: Chunk getEntities call
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.level.ServerLevel.getEntities(ServerLevel.java:2563) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.getEntities(ServerLevel.java:1511) ~[?:?]
+	at net.minecraft.commands.arguments.selector.EntitySelector.addEntities(EntitySelector.java:176) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.commands.arguments.selector.EntitySelector.findEntitiesRaw(EntitySelector.java:160) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.commands.arguments.selector.EntitySelector.findEntities(EntitySelector.java:114) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.selectEntities(CraftServer.java:2840) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.Bukkit.selectEntities(Bukkit.java:2402) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.mvplugins.multiverse.core.utils.PlayerFinder.getMultiBySelector(PlayerFinder.java:196) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.core.utils.PlayerFinder.getMulti(PlayerFinder.java:88) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.core.command.MVCommandContexts.lambda$playerArrayContextBuilder$34(MVCommandContexts.java:275) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.core.command.context.issueraware.IssuerAwareContextBuilder.lambda$generateContext$5(IssuerAwareContextBuilder.java:205) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.resolveContexts(RegisteredCommand.java:290) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValueByName(CommandCompletionContext.java:109) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$completeWithPreconditions$52d7ff4a$1(MVCommandCompletions.java:136) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.core.command.MVCommandCompletions.completeWithPreconditions(MVCommandCompletions.java:136) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$registerAsyncCompletion$1(MVCommandCompletions.java:126) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.external.acf.commands.CommandCompletions.getCompletionValues(CommandCompletions.java:271) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.external.acf.commands.CommandCompletions.of(CommandCompletions.java:217) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.external.acf.commands.BaseCommand.completeCommand(BaseCommand.java:705) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.external.acf.commands.BaseCommand.tabComplete(BaseCommand.java:646) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.external.acf.commands.ForwardingCommand.tabComplete(ForwardingCommand.java:76) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.external.acf.commands.RootCommand.lambda$getTabCompletions$1(RootCommand.java:125) ~[multiverse-core-5.1.2.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.mvplugins.multiverse.external.acf.commands.RootCommand.getTabCompletions(RootCommand.java:123) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.core.command.MVRootCommand.getTabCompletions(MVRootCommand.java:25) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.getCompletions(PaperAsyncTabCompleteHandler.java:79) ~[multiverse-core-5.1.2.jar:?]
+	at org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.onAsyncTabComplete(PaperAsyncTabCompleteHandler.java:51) ~[multiverse-core-5.1.2.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.event.Event.callEvent(Event.java:45) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleCustomCommandSuggestions$8(ServerGamePacketListenerImpl.java:913) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: [Multiverse-Core] An error occurred while parsing selector '@' for JustMilaros. Is it is the correct format?
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: java.lang.IllegalArgumentException: Could not parse selector: @
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.selectEntities(CraftServer.java:2843)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.Bukkit.selectEntities(Bukkit.java:2402)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.PlayerFinder.getMultiBySelector(PlayerFinder.java:196)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.PlayerFinder.getMulti(PlayerFinder.java:107)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandContexts.lambda$playerArrayContextBuilder$34(MVCommandContexts.java:275)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.context.issueraware.IssuerAwareContextBuilder.lambda$generateContext$5(IssuerAwareContextBuilder.java:205)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.resolveContexts(RegisteredCommand.java:290)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValueByName(CommandCompletionContext.java:109)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$completeWithPreconditions$52d7ff4a$1(MVCommandCompletions.java:136)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.completeWithPreconditions(MVCommandCompletions.java:136)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$registerAsyncCompletion$1(MVCommandCompletions.java:126)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletions.getCompletionValues(CommandCompletions.java:271)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletions.of(CommandCompletions.java:217)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.completeCommand(BaseCommand.java:705)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.tabComplete(BaseCommand.java:646)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.ForwardingCommand.tabComplete(ForwardingCommand.java:76)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.lambda$getTabCompletions$1(RootCommand.java:125)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.getTabCompletions(RootCommand.java:123)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVRootCommand.getTabCompletions(MVRootCommand.java:25)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.getCompletions(PaperAsyncTabCompleteHandler.java:79)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.onAsyncTabComplete(PaperAsyncTabCompleteHandler.java:51)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.event.Event.callEvent(Event.java:45)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleCustomCommandSuggestions$8(PlayerConnection.java:913)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Missing selector type at position 1: @<--[HERE]
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: [Multiverse-Core] An error occurred while parsing selector '@' for JustMilaros. Is it is the correct format?
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: java.lang.IllegalArgumentException: Could not parse selector: @
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.selectEntities(CraftServer.java:2843)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.Bukkit.selectEntities(Bukkit.java:2402)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.PlayerFinder.getMultiBySelector(PlayerFinder.java:196)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.utils.PlayerFinder.getMulti(PlayerFinder.java:107)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandContexts.lambda$playerArrayContextBuilder$34(MVCommandContexts.java:275)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.context.issueraware.IssuerAwareContextBuilder.lambda$generateContext$5(IssuerAwareContextBuilder.java:205)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.resolveContexts(RegisteredCommand.java:290)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValueByName(CommandCompletionContext.java:109)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValue(CommandCompletionContext.java:104)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletionContext.getContextValue(CommandCompletionContext.java:75)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$suggestDestinations$6183e5cd$1(MVCommandCompletions.java:217)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.suggestDestinations(MVCommandCompletions.java:217)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.completeWithPreconditions(MVCommandCompletions.java:166)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVCommandCompletions.lambda$registerAsyncCompletion$1(MVCommandCompletions.java:126)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletions.getCompletionValues(CommandCompletions.java:271)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.CommandCompletions.of(CommandCompletions.java:217)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.completeCommand(BaseCommand.java:705)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.tabComplete(BaseCommand.java:646)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.ForwardingCommand.tabComplete(ForwardingCommand.java:76)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.lambda$getTabCompletions$1(RootCommand.java:125)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.getTabCompletions(RootCommand.java:123)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.core.command.MVRootCommand.getTabCompletions(MVRootCommand.java:25)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.getCompletions(PaperAsyncTabCompleteHandler.java:79)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at multiverse-core-5.1.2.jar//org.mvplugins.multiverse.external.acf.commands.PaperAsyncTabCompleteHandler.onAsyncTabComplete(PaperAsyncTabCompleteHandler.java:51)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at org.bukkit.event.Event.callEvent(Event.java:45)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleCustomCommandSuggestions$8(PlayerConnection.java:913)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:10:50] [Async Tab Complete Thread - #0/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Missing selector type at position 1: @<--[HERE]
+[20:11:00] [Server thread/INFO]: JustMilaros issued server command: /mvtp @a laberinto
+[20:11:38] [Server thread/INFO]: JustMilaros issued server command: /gamemode adventure @a
+[20:11:40] [Server thread/INFO]: JustMilaros issued server command: /gamemode survival
+[20:11:43] [Server thread/INFO]: JustMilaros issued server command: /gamemode spectator
+[20:12:07] [Server thread/INFO]: JustMilaros issued server command: /gm adventure .JustMilaross
+[20:12:13] [Server thread/WARN]: .JustMilaross moved wrongly!
+[20:12:38] [Server thread/WARN]: .JustMilaross moved wrongly!
+[20:13:22] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] JustMilaross has disconnected from the Java server because of Bedrock client disconnected
+[20:13:22] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .JustMilaross disconnected
+[20:13:22] [Server thread/INFO]: .JustMilaross lost connection: Disconnected
+[20:13:22] [Server thread/INFO]: .JustMilaross left the game
+[20:13:30] [Server thread/INFO]: JustMilaros issued server command: /time set day
+[20:13:32] [Server thread/INFO]: JustMilaros issued server command: /gamemode survival
+[20:13:33] [Server thread/INFO]: JustMilaros issued server command: /gamemode spectator
+[20:13:36] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
