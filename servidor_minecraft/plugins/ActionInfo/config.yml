@@ -19,3 +19,31 @@ a4be21ca-d8cc-3cac-a759-a5fcdcae46dc:
   cpu: false
   ram: false
   ping: false
+f46b6fcf-4ab4-3792-8085-8a90063a0f6b:
+  active: false
+  tps: false
+  mspt: false
+  cpu: false
+  ram: false
+  ping: false
+17ca5cfc-ad62-3c36-a5c6-7b115ec30170:
+  active: false
+  tps: false
+  mspt: false
+  cpu: false
+  ram: false
+  ping: false
+00000000-0000-0000-0009-01f9145a5e0a:
+  active: false
+  tps: false
+  mspt: false
+  cpu: false
+  ram: false
+  ping: false
+e3ee33e7-3331-3c92-83e6-cfee59005976:
+  active: false
+  tps: false
+  mspt: false
+  cpu: false
+  ram: false
+  ping: false

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.57.253.193
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1753651671242
+  login: 1753651533887
+money: '0'
+last-account-name: Rulik
+lastlocation:
+  world: e8a229c6-3ebb-4900-8071-c9b487a4bb77
+  world-name: world
+  x: 16.900109744993443
+  y: 99.17675927506424
+  z: 44.06988296293031
+  yaw: -151.34832763671875
+  pitch: 27.4499454498291
+logoutlocation:
+  world: 0b75a604-5f40-40c2-bb60-a2442be6283a
+  world-name: Lobby
+  x: -135.68435691215345
+  y: 80.91305766871152
+  z: 54.209490236221896
+  yaw: 35.550025939941406
+  pitch: 24.000015258789062

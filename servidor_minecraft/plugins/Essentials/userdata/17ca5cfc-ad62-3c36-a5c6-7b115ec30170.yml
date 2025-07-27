@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.154.80.198
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1753651681982
+  login: 1753650027487
+money: '0'
+last-account-name: valen_cho
+lastlocation:
+  world: e8a229c6-3ebb-4900-8071-c9b487a4bb77
+  world-name: world
+  x: -6.649566848233767
+  y: 99.0
+  z: 30.615379158016566
+  yaw: -13.350017547607422
+  pitch: 48.14999771118164
+logoutlocation:
+  world: 0b75a604-5f40-40c2-bb60-a2442be6283a
+  world-name: Lobby
+  x: -180.49886965272864
+  y: 20.0
+  z: -32.67445935725857
+  yaw: 61.9393310546875
+  pitch: 76.20000457763672

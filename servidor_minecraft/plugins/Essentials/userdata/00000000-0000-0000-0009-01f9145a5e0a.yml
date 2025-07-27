@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.115.212.222
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1753651673243
+  login: 1753650616638
+money: '0'
+last-account-name: .Santiago8669
+lastlocation:
+  world: e8a229c6-3ebb-4900-8071-c9b487a4bb77
+  world-name: world
+  x: -9.69999
+  y: 103.7532
+  z: 8.263634
+  yaw: 42.5477294921875
+  pitch: 4.3874053955078125
+logoutlocation:
+  world: 0b75a604-5f40-40c2-bb60-a2442be6283a
+  world-name: Lobby
+  x: -147.67426
+  y: 65.13367
+  z: -20.660973
+  yaw: 74.35563659667969
+  pitch: 89.89999389648438
