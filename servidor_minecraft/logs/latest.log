@@ -486,3 +486,62 @@ java.lang.Throwable: null
 [20:42:37] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
 [20:43:00] [Server thread/INFO]: JustMilaros issued server command: /mv teleport Lobby
 [20:43:04] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
+[20:48:02] [Server thread/INFO]: Stopping the server
+[20:48:02] [Server thread/INFO]: Stopping server
+[20:48:02] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.7
+[20:48:02] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v3.0.7.1
+[20:48:02] [Server thread/INFO]: [Discord Integration] Unloading addons...
+[20:48:02] [Server thread/INFO]: [Discord Integration] Unloaded addons
+[20:48:02] [Server thread/INFO]: [ActionInfo] Disabling ActionInfo v1.6
+[20:48:02] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.1.2
+[20:48:03] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.71
+[20:48:03] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[20:48:03] [Server thread/INFO]: [ConditionalEvents] Disabling ConditionalEvents v4.65.1
+[20:48:03] [Server thread/INFO]: [ConditionalEvents] Has been disabled! Version: 4.65.1
+[20:48:03] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[20:48:03] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.3
+[20:48:03] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
+[20:48:03] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[20:48:03] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[20:48:03] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.1
+[20:48:03] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[20:48:03] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[20:48:03] [Server thread/INFO]: Saving players
+[20:48:03] [Server thread/INFO]: JustMilaros lost connection: Server closed
+[20:48:03] [Server thread/INFO]: JustMilaros left the game
+[20:48:03] [WebSocketConnectReadThread-91/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[20:48:03] [Server thread/INFO]: Saving worlds
+[20:48:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Saved 408 block chunks, 163 entity chunks, 0 poi chunks in world 'world' in 0.28s
+[20:48:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:48:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 16 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[20:48:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:48:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[20:48:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:48:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Lobby]'/minecraft:lobby
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Lobby'
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Lobby'
+[20:48:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Lobby'
+[20:48:04] [Server thread/INFO]: [ChunkHolderManager] Saved 1349 block chunks, 325 entity chunks, 0 poi chunks in world 'Lobby' in 0.68s
+[20:48:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (Lobby): All chunks are saved
+[20:48:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[laberinto]'/minecraft:laberinto
+[20:48:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'laberinto'
+[20:48:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'laberinto'
+[20:48:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'laberinto'
+[20:48:04] [Server thread/INFO]: [ChunkHolderManager] Saved 557 block chunks, 129 entity chunks, 0 poi chunks in world 'laberinto' in 0.15s
+[20:48:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (laberinto): All chunks are saved
+[20:48:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:48:04] [Server thread/INFO]: Flushing Chunk IO
+[20:48:04] [Server thread/INFO]: Closing Thread Pool
+[20:48:04] [Server thread/INFO]: Closing Server
