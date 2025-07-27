@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1753486405470
-  login: 1753646999380
+  logout: 1753648727583
+  login: 1753648948346
 money: '0'
 last-account-name: JustMilaros
 logoutlocation:
-  world: 0b75a604-5f40-40c2-bb60-a2442be6283a
-  world-name: Lobby
-  x: -205.06593097811563
-  y: 75.24294550736803
-  z: -144.40225248491922
-  yaw: 56.400360107421875
-  pitch: 43.950096130371094
+  world: 94734b5e-cbc7-468c-a83f-198a312154a1
+  world-name: laberinto
+  x: -588.9419808434777
+  y: 10.0
+  z: 661.7503859109153
+  yaw: 89.0887451171875
+  pitch: 43.50006103515625

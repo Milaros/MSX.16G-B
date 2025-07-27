@@ -478,3 +478,11 @@ java.lang.Throwable: null
 [20:31:56] [Netty Epoll Server IO #2/INFO]: [packetevents] Disconnected null due to invalid packet!
 [20:31:56] [Netty Epoll Server IO #1/INFO]: [packetevents] Disconnected null due to invalid packet!
 [20:31:56] [Netty Epoll Server IO #0/INFO]: [packetevents] Disconnected null due to invalid packet!
+[20:38:47] [Server thread/INFO]: JustMilaros lost connection: Disconnected
+[20:38:47] [Server thread/INFO]: JustMilaros left the game
+[20:42:28] [User Authenticator #1/INFO]: UUID of player JustMilaros is 17faf0ce-7657-3f28-a540-4b70c4a9992f
+[20:42:28] [Server thread/INFO]: JustMilaros joined the game
+[20:42:28] [Server thread/INFO]: JustMilaros[/127.76.223.122:48735] logged in with entity id 3131 at ([laberinto]-588.9419808434777, 10.0, 661.7503859109153)
+[20:42:37] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
+[20:43:00] [Server thread/INFO]: JustMilaros issued server command: /mv teleport Lobby
+[20:43:04] [Server thread/INFO]: JustMilaros issued server command: /gamemode creative
